@@ -1,3 +1,9 @@
 let sports: string[] = ["cracket", "baseball", "skiing"]; //
 sports.push("football");
-console.log(sports);
+for (let sport of sports) {
+    if (sport == "football") {
+        console.log(sport + " is a great sport!");
+    } else {
+        console.log(sport);
+    }
+}
